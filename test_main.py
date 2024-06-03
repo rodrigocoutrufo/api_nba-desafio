@@ -9,5 +9,5 @@ def client():
 def test_get_resultados_nba(client):
     response = client.get('/v1/resultados_nba')
     assert response.status_code == 200
-    print("\nTeste foi bem-sucedido!")
+    print("\nTeste completo!")
     

@@ -4,7 +4,7 @@ FROM python:3.9
 # 
 WORKDIR /app
 
-# Copiar o conteúdo do diretório atual para o container em /app
+
 COPY . .
 
 # 
